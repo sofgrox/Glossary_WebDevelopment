@@ -53,7 +53,7 @@ El archivo index.html es el punto de entrada principal de un sitio web. Es la pr
 ```
 <!DOCTYPE html>:
 ```
-La declaración -<!DOCTYPE html>- se encuentra en la parte superior de un documento HTML y especifica la versión del estándar HTML que se está utilizando. Ayuda al navegador a interpretar correctamente el contenido del documento.
+La declaración '<!DOCTYPE html>' se encuentra en la parte superior de un documento HTML y especifica la versión del estándar HTML que se está utilizando. Ayuda al navegador a interpretar correctamente el contenido del documento.
 
 ```
 <html></html>:
