@@ -1,7 +1,7 @@
 # Glossary_WebDevelopment
 Web development glossary created by the sofgrox community
 
-Glosario de Fundamentos Web
+# Glosario de Fundamentos Web
 
 Desarrollo Web:
 El desarrollo web es el proceso de crear y mantener sitios web y aplicaciones web. Incluye diversas etapas, como el diseño, la programación, la implementación y la actualización de contenido.
@@ -45,7 +45,7 @@ Los plugins son extensiones que se pueden agregar a Visual Studio Code para mejo
 Configuraciones de Visual Studio Code:
 Las configuraciones se refieren a los ajustes personalizados que se pueden aplicar en Visual Studio Code para adaptar el entorno a las preferencias del desarrollador. Estas configuraciones incluyen preferencias de estilo, atajos de teclado, temas visuales y más
 
-#Glosario de HTML y CSS
+# Glosario de HTML y CSS
 
 index.html:
 El archivo index.html es el punto de entrada principal de un sitio web. Es la primera página que se carga cuando un usuario visita el sitio. Aquí se define la estructura y el contenido básico de la página web utilizando etiquetas HTML.
@@ -110,7 +110,7 @@ El atributo id se utiliza para identificar de manera única un elemento HTML. Pu
 <script src=""></script>:
 La etiqueta <script> se utiliza para agregar scripts o código JavaScript a una página HTML. El atributo src especifica la ruta del archivo de script externo que se debe cargar.
 
-#Glosario de JavaScript
+# Glosario de JavaScript
 
 console.log():
 console.log() es una función de JavaScript que se utiliza para imprimir mensajes en la consola del navegador o en la consola de desarrollo. Es útil para depurar y visualizar valores de variables.
