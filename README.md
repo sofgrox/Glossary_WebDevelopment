@@ -4,46 +4,59 @@ Web development glossary created by the sofgrox community
 # Glosario de Fundamentos Web
 
 ### Desarrollo Web:
-El desarrollo web es el proceso de crear y mantener sitios web y aplicaciones web. Incluye diversas etapas, como el diseño, la programación, la implementación y la actualización de contenido.
+El desarrollo web se refiere al proceso de crear y mantener sitios web o aplicaciones web. Involucra varios aspectos como el diseño, la programación, la interacción con bases de datos y la optimización para su funcionamiento en navegadores.
 
-Frontend:
-El frontend se refiere a la parte visible de un sitio web o aplicación web con la que los usuarios interactúan directamente. Implica el diseño y la programación de elementos como la interfaz de usuario, la disposición, los gráficos y la interacción.
+### Frontend:
+El frontend se refiere a la parte visible de un sitio web o aplicación web con la que los usuarios interactúan directamente. Incluye el diseño, la disposición de elementos, la interacción y la presentación de información en el navegador.
 
-Backend:
-El backend es la parte no visible de un sitio web o aplicación web. Se encarga del procesamiento de datos, la lógica del negocio y la gestión de la base de datos. Maneja las solicitudes del frontend y proporciona la información necesaria para que la interfaz funcione correctamente.
+### Backend:
+El backend es la parte no visible de un sitio web o aplicación web. Maneja la lógica detrás de escena, la gestión de bases de datos, la autenticación de usuarios y otras funcionalidades que permiten que el frontend funcione correctamente.
 
-Frameworks:
-Los frameworks son conjuntos predefinidos de herramientas, bibliotecas y estándares que facilitan el desarrollo web al proporcionar estructuras y funciones comunes. Ayudan a los desarrolladores a escribir código más eficiente y organizado.
+### Frameworks:
+Los frameworks son conjuntos de herramientas y bibliotecas predefinidas que facilitan el desarrollo web al proporcionar estructuras y patrones comunes para resolver problemas específicos. Pueden ser tanto frontend como backend.
 
-Librerías:
-Las librerías son colecciones de código reutilizable que se utilizan para realizar tareas específicas. Ayudan a los desarrolladores a ahorrar tiempo al no tener que escribir todo el código desde cero.
+### Librerías:
+Las librerías son colecciones de funciones y código que se pueden reutilizar en el desarrollo web para realizar tareas específicas, como manejar interacciones con el DOM o gestionar peticiones HTTP.
 
-Base de datos:
-Una base de datos es un sistema organizado para almacenar, administrar y recuperar datos de manera eficiente. Se utiliza para almacenar información como nombres de usuario, contraseñas, contenido del sitio y más.
+### Base de datos:
+Una base de datos es un sistema de almacenamiento estructurado que guarda y organiza datos. En el desarrollo web, se utiliza para almacenar información como usuarios, publicaciones y otros datos relevantes para la aplicación.
 
-Lado del cliente:
-El lado del cliente se refiere a la parte de una aplicación web que se ejecuta en el navegador del usuario. Incluye la interfaz de usuario y la interacción con el usuario.
+### Lado del cliente:
+El lado del cliente se refiere a la parte de una aplicación web que se ejecuta en el navegador del usuario. Incluye el HTML, CSS y JavaScript que se encargan de la presentación y la interacción con el usuario.
 
-Lado del servidor:
-El lado del servidor es la parte de una aplicación web que se ejecuta en el servidor. Se encarga de procesar solicitudes, manejar la lógica empresarial, acceder a la base de datos y proporcionar datos al cliente.
+### Lado del servidor:
+El lado del servidor se refiere a la parte de una aplicación web que se ejecuta en el servidor. Aquí se manejan las solicitudes del cliente, se accede a la base de datos y se realiza la lógica de negocio antes de enviar la respuesta al cliente.
 
-Página Web:
-Una página web es un documento individual en un sitio web. Puede contener texto, imágenes, enlaces y otros elementos multimedia.
+### Página Web:
+Una página web es un documento único en un sitio web. Puede contener contenido como texto, imágenes, videos y enlaces. Las páginas web se combinan para crear un sitio web completo.
 
-Sitio Web:
-Un sitio web es una colección de páginas web interconectadas que comparten un dominio común. Puede consistir en una o varias páginas y abordar un tema específico.
+### Sitio Web:
+Un sitio web es un conjunto de páginas web relacionadas que están agrupadas bajo un mismo dominio. Estas páginas pueden estar conectadas a través de enlaces y formar una experiencia cohesiva para los usuarios.
 
-Aplicación Web:
-Una aplicación web es una herramienta interactiva accesible a través de un navegador web. A menudo realiza tareas más complejas que una simple página web, como la gestión de tareas, la edición de documentos y la colaboración en línea.
+### Aplicación Web:
+Una aplicación web es un tipo de software que se accede a través de un navegador web. Puede ofrecer funcionalidades avanzadas y a menudo implica interacción en tiempo real con el servidor.
 
-Visual Studio Code:
-Visual Studio Code es un entorno de desarrollo integrado (IDE) gratuito y altamente personalizable desarrollado por Microsoft. Es ampliamente utilizado para escribir y depurar código en varios lenguajes de programación.
+### camelCase:
+camelCase es una convención de escritura en la que las palabras se escriben juntas sin espacios, y cada palabra adicional después de la primera comienza con una letra mayúscula. Ejemplo: miVariableCamel.
 
-Plugins de Visual Studio Code:
-Los plugins son extensiones que se pueden agregar a Visual Studio Code para mejorar sus capacidades. Estas extensiones añaden funcionalidades adicionales, como resaltado de sintaxis, depuración avanzada, integración con herramientas externas y más.
+### PascalCase:
+PascalCase es una convención de escritura similar a camelCase, pero la primera letra de cada palabra también está en mayúscula. Ejemplo: MiVariablePascal.
 
-Configuraciones de Visual Studio Code:
-Las configuraciones se refieren a los ajustes personalizados que se pueden aplicar en Visual Studio Code para adaptar el entorno a las preferencias del desarrollador. Estas configuraciones incluyen preferencias de estilo, atajos de teclado, temas visuales y más
+### SNAKE_CASE:
+SNAKE_CASE es una convención de escritura en la que las palabras se escriben en mayúsculas y se separan por guiones bajos. Ejemplo: MI_VARIABLE_SNAKE.
+
+### kebab-case:
+kebab-case es una convención de escritura en la que las palabras se escriben en minúsculas y se separan por guiones. Ejemplo: mi-variable-kebab.
+
+### Visual Studio Code:
+Visual Studio Code es un popular editor de código fuente desarrollado por Microsoft. Es conocido por su velocidad, capacidad de personalización y una amplia gama de extensiones.
+
+### Plugins de Visual Studio Code:
+Los plugins, también conocidos como extensiones, son complementos que se agregan a Visual Studio Code para extender sus funcionalidades. Pueden proporcionar soporte para lenguajes de programación, integración con servicios externos y más.
+
+### Configuraciones de Visual Studio Code:
+Las configuraciones son ajustes personalizables en Visual Studio Code que permiten a los desarrolladores ajustar el comportamiento del editor de acuerdo a sus preferencias. Esto incluye configuraciones de formato, resaltado de sintaxis y atajos de teclado, entre otros.
+
 
 # Glosario de HTML y CSS
 
