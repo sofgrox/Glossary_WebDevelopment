@@ -113,12 +113,12 @@ La etiqueta <ul> se utiliza para crear una lista no ordenada, donde los elemento
 ```
 <li></li>:
 ```
-La etiqueta <li> se utiliza para definir elementos de lista dentro de una lista no ordenada (<ul>) o una lista ordenada (<ol>).
+La etiqueta (<li>) se utiliza para definir elementos de lista dentro de una lista no ordenada (<ul>) o una lista ordenada (<ol>).
 
 ```
 <a href=""></a>:
 ```
-La etiqueta <a> se utiliza para crear enlaces o hipervínculos a otras páginas web o recursos. El atributo href especifica la dirección URL de destino.
+La etiqueta (<a>) se utiliza para crear enlaces o hipervínculos a otras páginas web o recursos. El atributo href especifica la dirección URL de destino.
 
 ruta relativa (patch):
 Una ruta relativa se refiere a la ubicación de un archivo o recurso en relación con el archivo HTML actual. Se utiliza, por ejemplo, en enlaces o referencias a otros archivos.
