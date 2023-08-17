@@ -53,62 +53,62 @@ El archivo index.html es el punto de entrada principal de un sitio web. Es la pr
 ```
 <!DOCTYPE html>:
 ```
-La declaración <!DOCTYPE html> se encuentra en la parte superior de un documento HTML y especifica la versión del estándar HTML que se está utilizando. Ayuda al navegador a interpretar correctamente el contenido del documento.
+La declaración "<!DOCTYPE html>" se encuentra en la parte superior de un documento HTML y especifica la versión del estándar HTML que se está utilizando. Ayuda al navegador a interpretar correctamente el contenido del documento.
 
 ```
 <html></html>:
 ```
-La etiqueta <html> define el inicio y el final del documento HTML. Todo el contenido de la página web se encuentra dentro de estas etiquetas.
+La etiqueta "<html>" define el inicio y el final del documento HTML. Todo el contenido de la página web se encuentra dentro de estas etiquetas.
 
 ```
 <head></head>:
 ```
-La etiqueta <head> contiene metadatos y enlaces a recursos externos, como hojas de estilo y scripts, que son necesarios para la presentación y el funcionamiento de la página, pero no se muestran directamente en la ventana del navegador.
+La etiqueta "<head>" contiene metadatos y enlaces a recursos externos, como hojas de estilo y scripts, que son necesarios para la presentación y el funcionamiento de la página, pero no se muestran directamente en la ventana del navegador.
 
 ```
 <meta/>:
 ```
-La etiqueta <meta> se utiliza para proporcionar metadatos sobre el documento HTML, como el conjunto de caracteres utilizado y la descripción de la página.
+La etiqueta "<meta>" se utiliza para proporcionar metadatos sobre el documento HTML, como el conjunto de caracteres utilizado y la descripción de la página.
 
 ```
 <meta charset="UTF-8" />:
 ```
-La etiqueta <meta charset="UTF-8" /> especifica que el conjunto de caracteres utilizado en la página es UTF-8, lo que permite mostrar caracteres especiales y multilingües correctamente.
+La etiqueta "<meta charset="UTF-8" />" especifica que el conjunto de caracteres utilizado en la página es UTF-8, lo que permite mostrar caracteres especiales y multilingües correctamente.
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />:
 ```
-Esta etiqueta <meta> con el atributo name="viewport" y el atributo content define cómo se debe ajustar el contenido de la página al ancho del dispositivo y la escala inicial.
+Esta etiqueta "<meta>" con el atributo name="viewport" y el atributo content define cómo se debe ajustar el contenido de la página al ancho del dispositivo y la escala inicial.
 
 ```
 <link rel="stylesheet" href="" />:
 ```
-La etiqueta <link> se utiliza para vincular una hoja de estilo externa (CSS) al documento HTML, lo que permite aplicar estilos al contenido de la página.
+La etiqueta "<link>" se utiliza para vincular una hoja de estilo externa (CSS) al documento HTML, lo que permite aplicar estilos al contenido de la página.
 
 ```
 <title></title>:
 ```
-La etiqueta <title> se utiliza para establecer el título de la página web, que se muestra en la pestaña del navegador o en los resultados de búsqueda.
+La etiqueta "<title>" se utiliza para establecer el título de la página web, que se muestra en la pestaña del navegador o en los resultados de búsqueda.
 
 ```
 <body></body>:
 ```
-La etiqueta <body> contiene todo el contenido visible de la página web, como texto, imágenes, enlaces y otros elementos.
+La etiqueta "<body>" contiene todo el contenido visible de la página web, como texto, imágenes, enlaces y otros elementos.
 
 ```
 <!-- -->:
 ```
-El formato <!-- comentario --> se utiliza para insertar comentarios en el código HTML. Los comentarios no se muestran en la página y son útiles para hacer anotaciones sobre el código.
+El formato "<!-- comentario -->" se utiliza para insertar comentarios en el código HTML. Los comentarios no se muestran en la página y son útiles para hacer anotaciones sobre el código.
 
 ```
 <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>:
 ```
-Las etiquetas <h1> a <h6> se utilizan para definir encabezados de diferentes niveles en la página, donde <h1> es el encabezado más importante y <h6> es el menos importante.
+Las etiquetas "<h1> a <h6>" se utilizan para definir encabezados de diferentes niveles en la página, donde "<h1>" es el encabezado más importante y "<h6>" es el menos importante.
 
 ```
 <ul></ul>:
 ```
-La etiqueta <ul> se utiliza para crear una lista no ordenada, donde los elementos de la lista se presentan con viñetas.
+La etiqueta "<ul>" se utiliza para crear una lista no ordenada, donde los elementos de la lista se presentan con viñetas.
 
 ```
 <li></li>:
@@ -118,7 +118,7 @@ La etiqueta (<li>) se utiliza para definir elementos de lista dentro de una list
 ```
 <a href=""></a>:
 ```
-La etiqueta (<a>) se utiliza para crear enlaces o hipervínculos a otras páginas web o recursos. El atributo href especifica la dirección URL de destino.
+La etiqueta "<a>" se utiliza para crear enlaces o hipervínculos a otras páginas web o recursos. El atributo href especifica la dirección URL de destino.
 
 ruta relativa (patch):
 Una ruta relativa se refiere a la ubicación de un archivo o recurso en relación con el archivo HTML actual. Se utiliza, por ejemplo, en enlaces o referencias a otros archivos.
@@ -138,7 +138,7 @@ El atributo id se utiliza para identificar de manera única un elemento HTML. Pu
 ```
 <script src=""></script>:
 ```
-La etiqueta <script> se utiliza para agregar scripts o código JavaScript a una página HTML. El atributo src especifica la ruta del archivo de script externo que se debe cargar.
+La etiqueta "<script>" se utiliza para agregar scripts o código JavaScript a una página HTML. El atributo src especifica la ruta del archivo de script externo que se debe cargar.
 
 # Glosario de JavaScript
 
