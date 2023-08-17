@@ -3,7 +3,7 @@ Web development glossary created by the sofgrox community
 
 # Glosario de Fundamentos Web
 
-## Desarrollo Web:
+### Desarrollo Web:
 El desarrollo web es el proceso de crear y mantener sitios web y aplicaciones web. Incluye diversas etapas, como el diseño, la programación, la implementación y la actualización de contenido.
 
 Frontend:
