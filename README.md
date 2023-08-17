@@ -294,6 +294,8 @@ Similar al método getElementsByTagName, pero utilizado para elementos con un es
 ### innerHTML (DOM):
 Es una propiedad de los elementos del DOM que permite acceder o modificar el contenido HTML interno de un elemento. Ten en cuenta que cambiar innerHTML puede tener implicaciones de seguridad y rendimiento.
 
-### return (DOM):
+### return:
 
 La palabra clave return se utiliza en JavaScript en el contexto de funciones para especificar el valor que debe ser devuelto por esa función. Cuando una función alcanza una instrucción return, la ejecución de la función se detiene y el valor especificado después de return se devuelve a quien llamó la función.
+
+Imagina que eres un chef y estás haciendo un pastel. Tienes una receta (función) que toma algunos ingredientes y produce un delicioso pastel. Una vez que has mezclado todo y horneado el pastel, llega el momento de entregarlo. En este caso, el return sería como presentar el pastel terminado.
