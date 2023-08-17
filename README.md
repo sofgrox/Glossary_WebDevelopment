@@ -164,84 +164,93 @@ La etiqueta script se utiliza para agregar scripts o código JavaScript a una p�
 
 # Glosario de JavaScript
 
-console.log():
-console.log() es una función de JavaScript que se utiliza para imprimir mensajes en la consola del navegador o en la consola de desarrollo. Es útil para depurar y visualizar valores de variables.
+### console.log(): Es una función que muestra mensajes en la consola del navegador o en la consola de desarrollador. Se utiliza para depurar y mostrar información durante el desarrollo de una aplicación.
+Es como tener una pequeña ventana donde puedes escribir cosas para que la computadora te las muestre. Es como hablarle a la computadora para que te diga algo.
 
-alert():
-alert() es una función de JavaScript que muestra un mensaje emergente en una ventana del navegador. Se utiliza para proporcionar información al usuario de manera inmediata.
+### alert(): Es una función que muestra una ventana emergente en el navegador con un mensaje y un botón "Aceptar". Se utiliza para mostrar información importante o mensajes de advertencia al usuario.
+Es como una cajita que aparece en la pantalla y muestra un mensaje importante. Es como cuando alguien te dice "¡Mira esto!".
 
-var:
-var fue una palabra clave en JavaScript utilizada para declarar variables antes de las versiones más modernas de ECMAScript (ES6). Ahora se recomienda el uso de let y const.
+### var: Antiguamente se usaba para declarar variables en JavaScript, pero ahora se recomienda usar let y const debido a problemas con el ámbito (scope) y la forma en que las variables var pueden ser izadas (hoisting).
+Es como una caja donde puedes guardar cosas. Pero a veces es un poco confuso, así que no lo usamos mucho.
 
-let:
-let es una palabra clave en JavaScript que se utiliza para declarar variables de ámbito local. Las variables declaradas con let pueden cambiar de valor después de su declaración.
+### let: Es una palabra clave que se utiliza para declarar variables con ámbito de bloque. Las variables declaradas con let tienen un alcance limitado al bloque en el que se declaran.
+Es como una caja que puedes cambiar de vez en cuando. Puedes poner cosas diferentes en ella cuando quieras.
 
-const:
-const es una palabra clave en JavaScript que se utiliza para declarar variables cuyo valor no cambiará después de su asignación inicial. Las variables declaradas con const son de solo lectura.
+### const: Es una palabra clave que se utiliza para declarar constantes. Las variables declaradas con const no pueden cambiar su valor después de la asignación inicial y también tienen un ámbito de bloque.
+Es como una caja fuerte que pones una cosa y no la cambias nunca. Lo que pongas ahí se queda igual.
 
-concatenar:
-Concatenar es el proceso de unir cadenas de texto para formar una cadena más larga. En JavaScript, se puede lograr usando el operador + para combinar cadenas.
+### concatenar: Es la acción de combinar cadenas de texto. En JavaScript, puedes concatenar cadenas utilizando el operador +.
+Es cuando pegas dos cosas juntas, como unir piezas de lego para hacer algo más grande.
 
-scope de variable:
-El scope de una variable se refiere a la parte del código donde la variable es accesible y tiene valor. Puede ser global (accesible desde cualquier parte del código) o local (accesible solo dentro de un bloque o función específicos).
+### scope de variable: Se refiere a la visibilidad y accesibilidad de una variable en diferentes partes del código. Las variables pueden tener ámbito global (visibles en todo el código) o ámbito local (visibles solo en ciertas partes del código).
+Imagina que cada caja que usas solo puede verse en ciertas partes de tu habitación. No todas las cajas pueden ser vistas desde cualquier lugar.
 
-String:
-String es un tipo de dato en JavaScript que representa una secuencia de caracteres. Puede contener letras, números y símbolos.
+### Hoisting es un término extraño, pero en realidad es bastante simple de entender. Imagina que tienes una habitación y en esa habitación tienes muchas cajas. Cada caja contiene algo diferente, como juguetes, libros o ropa. Ahora, cuando entras a la habitación, primero miras todas las cajas y anotas en un papel lo que hay en cada una antes de empezar a jugar o usar las cosas.
 
-int:
-int es una abreviatura de "integer", que se refiere a números enteros (números sin decimales) en JavaScript.
+En JavaScript, algo similar sucede con las declaraciones de variables y funciones. Antes de que el código se ejecute, JavaScript "levanta" (hoists) todas las declaraciones de variables y funciones al principio de su ámbito (como una función o un archivo). Esto significa que, aunque puedas haber escrito el código en un orden específico, JavaScript reorganiza internamente estas declaraciones antes de ejecutarlo.
 
-float:
-float es un tipo de dato en JavaScript que se refiere a números con decimales, también conocidos como números de punto flotante.
+Hoisting es un comportamiento en JavaScript donde las declaraciones de variables y funciones se mueven automáticamente al comienzo de su alcance antes de que se ejecute el código. Aunque en realidad no se mueven físicamente en el código, este comportamiento puede llevar a resultados sorprendentes si no se comprende correctamente.
 
-boolean:
-boolean es un tipo de dato en JavaScript que solo puede tener dos valores: true (verdadero) o false (falso). Se utiliza para expresar estados lógicos.
+El hoisting se aplica principalmente a las declaraciones de variables y funciones, pero no a las asignaciones de variables. Aquí tienes algunos ejemplos para ilustrar este concepto:
 
-prompt():
-prompt() es una función de JavaScript que muestra un cuadro de diálogo en el navegador, permitiendo que el usuario ingrese datos. El valor ingresado se puede asignar a una variable.
+### String: Es un tipo de dato que representa una secuencia de caracteres, como texto. Se puede crear utilizando comillas simples o dobles: 'texto' o "texto".
 
-function:
-function es una palabra clave en JavaScript que se utiliza para definir una función, que es un bloque de código reutilizable que puede recibir argumentos, realizar tareas y devolver un valor.
+### int: No existe un tipo de dato específico llamado "int" en JavaScript. Los números enteros son representados por el tipo de dato numérico y pueden contener tanto enteros como decimales.
 
-\n:
-\n es un carácter de escape que se utiliza en cadenas de texto para representar un salto de línea, lo que hace que el texto siguiente aparezca en una nueva línea.
+### float: Tampoco existe un tipo de dato llamado "float" en JavaScript. Los números con decimales se representan mediante el tipo de dato numérico.
 
-toLowerCase():
-toLowerCase() es un método de cadena en JavaScript que convierte todos los caracteres de una cadena a minúsculas.
+### boolean: Es un tipo de dato que representa un valor de verdad, es decir, puede ser true (verdadero) o false (falso). Se utiliza para expresar condiciones y tomar decisiones en el código.
 
-toUpperCase():
-toUpperCase() es un método de cadena en JavaScript que convierte todos los caracteres de una cadena a mayúsculas.
+### prompt(): Es una función que muestra una ventana emergente en el navegador con un campo de entrada de texto y botones "Aceptar" y "Cancelar". Se utiliza para obtener entrada del usuario.
 
-if/else:
-if/else es una estructura de control en JavaScript que se utiliza para tomar decisiones condicionales en el código. Si se cumple una condición, se ejecuta el bloque if, de lo contrario, se ejecuta el bloque else.
+### function: Es un bloque de código reutilizable que puede aceptar argumentos y devolver un resultado. Las funciones son fundamentales en la programación para organizar y modular el código.
 
-if anidado:
-Los if anidados son múltiples bloques if colocados dentro de otros bloques if o else. Se utilizan para manejar varias condiciones y acciones en función de diferentes casos.
+### onclick="": Es un atributo HTML utilizado para asignar una función de JavaScript que se ejecutará cuando un elemento, como un botón, sea clicado.
 
-else if:
-else if es una extensión de la estructura if/else que permite verificar múltiples condiciones alternativas antes de recurrir al bloque else.
+### \n: Es un carácter de escape que representa una nueva línea en una cadena de texto. Se utiliza para dar formato al texto.
 
-Operadores de comparación:
-Los operadores de comparación se utilizan para comparar valores en JavaScript y devuelven un valor booleano (true o false) según si la comparación es verdadera o falsa.
+### toLowerCase(), toLocalLowerCase(), toUpperCase(), toLocalUpperCase(): Son métodos de las cadenas de texto que se utilizan para cambiar el caso de las letras en una cadena. toLowerCase() convierte a minúsculas, toLocalLowerCase() lo hace considerando la configuración regional del sistema, toUpperCase() convierte a mayúsculas y toLocalUpperCase() lo hace considerando la configuración regional.
 
-==: Igual a.
-===: Estrictamente igual a.
->: Mayor que.
-<: Menor que.
->=: Mayor o igual que.
-<=: Menor o igual que.
-!=: Diferente de.
-!==: Estrictamente diferente de.
-Operadores lógicos:
-Los operadores lógicos se utilizan para combinar o invertir valores booleanos en JavaScript.
+### if/else: Son estructuras de control que se utilizan para tomar decisiones en el código. El bloque if ejecuta un conjunto de instrucciones si se cumple una condición, y el bloque else ejecuta un conjunto de instrucciones si la condición no se cumple.
 
-&&: Operador AND lógico (Y).
-||: Operador OR lógico (O).
-null:
-null es un valor especial en JavaScript que representa la ausencia intencionada de cualquier valor o referencia a un objeto.
+### if anidado: Es cuando tienes una estructura if dentro de otra estructura if. Esto permite evaluar múltiples condiciones de manera secuencial.
 
-undefined:
-undefined es un valor que indica que una variable no tiene un valor asignado. Si una variable se declara pero no se inicializa, su valor será undefined.
+### else if: Es una extensión de la estructura if que se utiliza para evaluar condiciones adicionales en caso de que la condición anterior no se cumpla.
 
-vacio "":
-Una cadena vacía ("") es una cadena que no contiene ningún carácter. Es diferente de null y undefined, ya que es un valor válido de cadena en JavaScript.
+### Operadores de comparación: Son símbolos que se utilizan para comparar valores. Algunos ejemplos son == (igualdad), === (igualdad estricta), > (mayor que), < (menor que), >= (mayor o igual que), <= (menor o igual que), != (diferente), !== (diferente estricto).
+
+### Operadores lógicos: Son utilizados para combinar condiciones y realizar operaciones lógicas. && representa el operador "y" lógico, mientras que || representa el operador "o" lógico.
+
+### null: Es un valor especial que representa la ausencia intencional de cualquier objeto o valor.
+
+### undefined: Es un valor que indica que una variable no ha sido asignada o declarada.
+
+### vacio "": Se refiere a una cadena de texto sin caracteres, es decir, una cadena con longitud cero.
+
+### NaN: Significa "Not-a-Number" (No es un número). Se devuelve cuando se realiza una operación matemática inválida.
+
+### parseFloat: Es una función que convierte una cadena en un número de punto flotante (decimal).
+
+### parseInt: Es una función que convierte una cadena en un número entero.
+
+### isNaN(): Es una función que devuelve true si el valor proporcionado no es un número válido, de lo contrario devuelve false.
+
+### Condicional switch: Es una estructura de control utilizada para realizar múltiples comparaciones y ejecutar diferentes bloques de código según el valor de una expresión.
+
+### case y break;: Son utilizados en una estructura switch para definir diferentes casos y las acciones a realizar cuando se cumple cada caso. break se utiliza para salir del bloque switch después de que se ha ejecutado un caso.
+
+### DOM: El Document Object Model (Modelo de Objetos del Documento) es una representación en memoria de la estructura de un documento HTML. Permite a los scripts acceder y manipular elementos HTML y sus propiedades.
+
+### document (DOM): Es el objeto global que representa el documento HTML en JavaScript. Proporciona métodos y propiedades para interactuar con los elementos del documento.
+
+### getElementById (DOM): Es un método que busca y devuelve un elemento del DOM según su atributo id.
+
+### getElementsByName (DOM): Es un método que devuelve una lista de elementos del DOM que tienen un atributo name específico.
+
+### getElementsByClassName (DOM): Es un método que devuelve una lista de elementos del DOM que tienen una clase específica asignada css. Puedes acceder a estos elementos y manipularlos utilizando JavaScript.
+
+### getElementsByTagName (DOM): Es un método que devuelve una lista de elementos del DOM que tienen una etiqueta HTML específica, como <div>, <p>, <a>, etc.
+
+### getElementsByTagNameNS (DOM): Similar al método getElementsByTagName, pero utilizado para elementos con un espacio de nombres específico en documentos XML o SVG.
+
+innerHTML (DOM): Es una propiedad de los elementos del DOM que permite acceder o modificar el contenido HTML interno de un elemento. Ten en cuenta que cambiar innerHTML puede tener implicaciones de seguridad y rendimiento.
